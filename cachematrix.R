@@ -1,9 +1,10 @@
 ## My functions return the inverse of a matrix using the solve() function,
-## and retrieving the result directly from cache if it's already in it.
+## and retrieve the result directly from cache if it's already in it.
 
-## makeCacheMatrix is a function made of a list of named sub-functions;
-## these named sub-functions provide all actions needed to get the inverse of
-## a matrix, and to instantiate it into cache.
+## makeCacheMatrix is a function made of a list of named sub-functions,
+## and it works like an object does through its methods.
+## These named sub-functions provide all actions needed to instantiate
+## into cache the inverse of a matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
         invmatrix <- NULL
